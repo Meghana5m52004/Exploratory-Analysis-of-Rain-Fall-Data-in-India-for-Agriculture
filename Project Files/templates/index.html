@@ -4,14 +4,27 @@
     <title>Rainfall Prediction</title>
 </head>
 <body>
-    <h2>Rainfall Prediction App</h2>
 
-    <form action="/predict" method="post">
-        <input type="text" name="rainfall" placeholder="Enter Rainfall Value">
-        <button type="submit">Predict</button>
-    </form>
+<h2>Rainfall Prediction App</h2>
 
-    <h3>{{ prediction_text }}</h3>
+<form action="/predict" method="post">
+    <input type="text" name="JAN" placeholder="JAN"><br><br>
+    <input type="text" name="FEB" placeholder="FEB"><br><br>
+    <input type="text" name="MAR" placeholder="MAR"><br><br>
+    <input type="text" name="APR" placeholder="APR"><br><br>
+    <input type="text" name="MAY" placeholder="MAY"><br><br>
+    <input type="text" name="JUN" placeholder="JUN"><br><br>
+    <input type="text" name="JUL" placeholder="JUL"><br><br>
+    <input type="text" name="AUG" placeholder="AUG"><br><br>
+    <input type="text" name="SEP" placeholder="SEP"><br><br>
+    <input type="text" name="OCT" placeholder="OCT"><br><br>
+    <input type="text" name="NOV" placeholder="NOV"><br><br>
+    <input type="text" name="DEC" placeholder="DEC"><br><br>
+
+    <button type="submit">Predict</button>
+</form>
+
+<h3>{{ prediction_text }}</h3>
 
 </body>
 </html>
